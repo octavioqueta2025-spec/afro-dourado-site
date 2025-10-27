@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 const WhatsAppFloat = () => {
   const openWhatsApp = () => {
     const message = "Olá! Gostaria de saber mais sobre os tratamentos capilares da Afro Dourado.";
-    const whatsappUrl = `https://wa.me/244926919013?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/244932789299?text=${encodeURIComponent(message)}`;
     
     // Try to open WhatsApp with fallback
     try {

@@ -102,7 +102,7 @@ const Testimonials = () => {
             <div className="text-xs md:text-sm text-muted-foreground">Tratamentos</div>
           </div>
           <div className="text-center p-4 bg-card rounded-lg">
-            <div className="text-2xl md:text-3xl font-bold text-primary mb-2">5</div>
+            <div className="text-2xl md:text-3xl font-bold text-primary mb-2">5+</div>
             <div className="text-xs md:text-sm text-muted-foreground">Anos Experiência</div>
           </div>
         </div>

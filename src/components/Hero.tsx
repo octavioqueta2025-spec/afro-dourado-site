@@ -1,6 +1,6 @@
 import { ArrowDown, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import heroImage from '@/assets/hero-professional-afro.jpg';
+import heroImage from '@/assets/clinic-interior.jpg';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -9,31 +9,30 @@ const Hero = () => {
   };
 
   return (
-    <section id="inicio" className="min-h-screen relative flex items-center bg-background">
+    <section id="inicio" className="min-h-screen relative flex items-center bg-background pt-24 md:pt-28">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute top-0 left-0 w-full h-full bg-cover bg-left bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent"></div>
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center text-white">
+      <div className="relative z-10 w-full px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
 
           {/* Main Title */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-up [animation-delay:200ms]">
-            Seu Cabelo{' '}
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 animate-fade-up [animation-delay:200ms]">
+            Desperte a Beleza do Seu{' '}
             <span className="text-primary font-extrabold">
-              Afro Dourado
+              Cabelo Afro
             </span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl mb-8 text-white/95 max-w-2xl mx-auto animate-fade-up [animation-delay:400ms] font-medium">
-            Especialistas em tratamentos capilares para cabelos afro em Luanda e Huambo. 
-            Recupere a saúde e beleza natural do seu cabelo.
+            Na Afro Dourado, celebramos a força e a beleza natural dos seus fios. Tratamentos especializados para você brilhar.
           </p>
 
           {/* CTA Buttons */}

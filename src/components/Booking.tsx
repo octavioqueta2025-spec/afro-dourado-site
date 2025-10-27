@@ -46,7 +46,7 @@ const Booking = () => {
 🕐 Horário: ${formData.time}
 💬 Mensagem: ${formData.message}`;
 
-    const whatsappUrl = `https://wa.me/244926919013?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/244932789299?text=${encodeURIComponent(message)}`;
     
     // Try to open WhatsApp with fallback
     try {

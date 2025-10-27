@@ -10,7 +10,7 @@ import WhatsAppFloat from '@/components/WhatsAppFloat';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background smooth-scroll">
+    <>
       <Header />
       <Hero />
       <About />
@@ -20,7 +20,7 @@ const Index = () => {
       <Contact />
       <Footer />
       <WhatsAppFloat />
-    </div>
+    </>
   );
 };
 

@@ -7,14 +7,14 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Telefone",
-      value: "+244 926 919 013",
-      action: "tel:+244926919013"
+      value: "+244 932 789 299",
+      action: "tel:+244932789299"
     },
     {
       icon: MessageCircle,
       title: "WhatsApp",
-      value: "+244 926 919 013",
-      action: "https://wa.me/244926919013"
+      value: "+244 932 789 299",
+      action: "https://wa.me/244932789299"
     },
     {
       icon: Mail,
@@ -81,7 +81,7 @@ const Contact = () => {
               {/* Quick Actions */}
               <div className="flex flex-col sm:flex-row gap-4 mt-4">
               <Button 
-                onClick={() => window.open('https://wa.me/244926919013', '_blank')}
+                onClick={() => window.open('https://wa.me/244932789299', '_blank')}
                 variant="hero"
                 className="flex-1"
               >
@@ -89,7 +89,7 @@ const Contact = () => {
                 WhatsApp
               </Button>
               <Button 
-                onClick={() => window.open('tel:+244926919013', '_blank')}
+                onClick={() => window.open('tel:+244932789299', '_blank')}
                 variant="secondary-outline"
                 className="flex-1"
               >

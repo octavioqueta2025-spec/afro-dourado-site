@@ -51,7 +51,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://wa.me/244926919013" 
+                href="https://wa.me/244932789299" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary transition-colors"
@@ -122,7 +122,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary" />
-                <span className="text-white/80">+244 926 919 013</span>
+                <span className="text-white/80">+244 932 789 299</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary" />

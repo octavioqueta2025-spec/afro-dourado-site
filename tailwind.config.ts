@@ -6,8 +6,8 @@ export default {
   prefix: "",
   theme: {
     container: {
-      center: true,
-      padding: "2rem",
+      center: false,
+      padding: "0rem",
       screens: {
         "2xl": "1400px",
       },

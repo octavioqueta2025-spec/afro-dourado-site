@@ -164,7 +164,7 @@ const Booking = () => {
                       onSelect={setSelectedDate}
                       locale={ptBR}
                       fromDate={today}
-                      disabled={{ dayOfWeek: [0] }} // Disables Sundays
+                      disabled={{ dayOfWeek: [6] }} // Disables Saturdays
                       className="text-foreground"
                       modifiersClassNames={{
                         selected: 'bg-primary text-primary-foreground',

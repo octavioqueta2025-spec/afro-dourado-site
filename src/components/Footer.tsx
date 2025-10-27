@@ -20,7 +20,7 @@ const Footer = () => {
               <span className="text-xl font-bold text-primary">Afro Dourado</span>
             </div>
             <p className="text-white/80 leading-relaxed">
-              Especialistas em tratamentos capilares para cabelos afro em Luanda. 
+              Especialistas em tratamentos capilares para cabelos afro em Luanda e Benguela. 
               Cuidamos da saúde e beleza do seu cabelo com profissionalismo e dedicação.
             </p>
             <div className="flex space-x-4">

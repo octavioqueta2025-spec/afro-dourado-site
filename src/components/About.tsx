@@ -20,7 +20,7 @@ const About = () => {
               
               <div className="space-y-6">
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Desde 2017, a <strong className="text-primary">Afro Dourado</strong> é uma referência em saúde e estética capilar em Angola, com unidades em Luanda e Huambo.
+                  Desde 2017, a <strong className="text-primary">Afro Dourado</strong> é uma referência em saúde e estética capilar em Angola, com unidades em Luanda e Benguela.
                 </p>
                 
                 <p className="text-lg text-muted-foreground leading-relaxed">
